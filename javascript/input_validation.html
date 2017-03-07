@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Validation</title>
+</head>
+
+<body>
+<p>Please input a number between 5 and 10:</p>
+
+<input type="text" id="demo">
+<button onclick="myFunction()">Test Input</button>
+<p id="message"></p>
+
+<script>
+function myFunction(){
+    /******
+    *注意:
+    *1. 由于从输入框传来的是string类型,所以判断的前提是从字符串中提取数字
+    *2. isNaN(): 剔除不能转换成数字的类型,空字符会被转换成数字0,故判断之前先排除空字符
+    *3. Number(): 将字符串转换成数字, 不能绕过2的原因, Number()会将非数字字符串转换为NaN,而NaN无法跟任何数字包括NaN本身进行比较
+    *******/
+    var x;
+    x = document.getElementById('demo').value;  //注意:此处是string
+    //alert(x + ' ' + typeof(x));
+    try {
+        if(x == '') throw "empty!";
+        if(isNaN(x)) throw "not a number!"; //NaN与数字无法比较, 空字符也会被转换为0
+        x = Number(x);  //注意: 空字符会被转换成0,故先排除空字符
+        if(x<5) throw "too low!";
+        else if(x>10) throw "too high";
+        else throw "right!";
+    } catch(err) {
+        document.getElementById('message').innerHTML = "The input '" + x + "' is " + err;
+    } finally {
+        document.getElementById('demo').value = ''; //清空输入框
+    }
+}
+</script>
+
+</body>
+</html>
