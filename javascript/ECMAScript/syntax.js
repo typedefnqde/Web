@@ -11,7 +11,7 @@ ECMAScript Syntax
 	- hoisting: 
 			所有变量、函数的声明在脚本执行前会被提前到当前scope的最前面；
 			变量只有名字被提前（值不提前），函数名及其函数体都被提前。	
-			http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
+			"http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html"
 			eg:
 				for(var i=0; i<10; i++){} //出了此循环，变量i依旧存在且值为10
     -  未声明的变量在赋值时自动全局化
