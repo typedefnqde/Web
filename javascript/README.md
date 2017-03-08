@@ -13,3 +13,7 @@ Versions: https://www.w3schools.com/js/js_versions.asp
 	- DOM
 	- BOM
 
+
+Refereneces:
+- Javascript: The Definitive Guide (6th)
+	code: http://examples.oreilly.com/9780596805531/
