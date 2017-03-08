@@ -35,10 +35,10 @@ ECMAScript Syntax
 
 7.关键字 & 预留字 (不能用作标识符)
 	break, case, switch, if, else, for, var, try, catch, throw, etc;
-	https://www.w3schools.com/js/js_reserved.asp
+	"https://www.w3schools.com/js/js_reserved.asp"
 
 8.Primitive values and Reference values
-	http://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value?answertab=active#tab-top
+	"http://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value?answertab=active#tab-top"
 	A variable can hold one of two value types: primitive values or reference values.
 	- Primitive value
 		data that are stored on the stack.
