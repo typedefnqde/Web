@@ -1,0 +1,6 @@
+源码编辑器-键盘命令
+
+https://developer.mozilla.org/zh-CN/docs/Tools/Using_the_Source_Editor
+
+cmd+/: 对当前行，行首增加/去掉注释符号//
+

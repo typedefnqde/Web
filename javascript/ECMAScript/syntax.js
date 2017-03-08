@@ -1,7 +1,5 @@
 ECMAScript Syntax
 
-"JavaScript borrows most of its syntax from Java, but also inherits from Awk and Perl, with some inherits influence from Self in its object prototype system."
-
 
 1.大小写敏感
 
