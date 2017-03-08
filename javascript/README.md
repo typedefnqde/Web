@@ -6,7 +6,10 @@ ECMA-262 is the official name of the standard. ECMAScript is the official name o
 Versions: https://www.w3schools.com/js/js_versions.asp
 
 
-- ECMAScipt (Basics)
-- DOM
-- BOM
+- Core JavaScript
+	- ECMAScipt
+
+- Client-Side JavaScript
+	- DOM
+	- BOM
 
