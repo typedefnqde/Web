@@ -10,6 +10,7 @@ JavaScript borrows most of its syntax from Java, but also inherits from Awk and 
 
 
 Structure:
+
 	- Core JavaScript
 		- ECMAScipt
 	
