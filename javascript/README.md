@@ -24,8 +24,6 @@ StudyTools:
 	- browser console: both for core js and client js 
 	- Firefox Scratchpad: edit larger chunks of js code.
 		https://developer.mozilla.org/en-US/docs/Tools/Scratchpad
-		ps: scratchpad is a single window, not within the firefox, to get nice effect, both windows should be parallel.
-
 
 Refereneces:
 - Javascript: The Definitive Guide (6th)

@@ -1,0 +1,23 @@
+Scratchpad
+
+所属: FirefoxDeveloperEdition
+
+Unlike the Web Console, which is designed for interpreting a single line of code at a time,
+Scratchpad lets you edit larger chunks of JavaScript code,
+then execute it in various ways depending on how you want to use the output.
+
+
+https://developer.mozilla.org/en-US/docs/Tools/Scratchpad
+
+
+Mac下操作:
+    - 调出:
+        1) 快捷键: shift + fn + f4, 打开新窗口
+        2) Tools -> Web Developer -> Scratchpad, 打开新窗口
+        3) 在Developer Tools 配置面板 -> Default Developer Tools -> 勾选Scratchpad,
+           之后即可在开发者工具中看到,不需另外打开窗口,
+           不足: 一些功能只能在窗口时才能看到,(Mac桌面顶端)
+    - 代码自动补全:
+        快捷键: ctrl + space
+    - 查看代码/函数文档(Inline documentation):
+        快捷键: ctrl + shift + space
