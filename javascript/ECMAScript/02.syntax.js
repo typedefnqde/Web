@@ -3,6 +3,7 @@ ECMAScript Syntax [Lexical Structure]
 
 1.大小写敏感
 
+
 2.松散的变量类型
 	- var
 	- 变量不需要声明就可以赋值
@@ -50,9 +51,11 @@ ECMAScript Syntax [Lexical Structure]
                 ++y;
     - 每条语句后加分号与否是风格的问题, 但在必要的地方必须加否则会引发各种问题.
 
+
 4.注释：
 	//注释
 	/*注释*/
+
 
 5.代码块：
 	{ code block }
@@ -84,7 +87,7 @@ ECMAScript Syntax [Lexical Structure]
 	- Primitive value
 		data that are stored on the stack.
 		stored directly in the location that the variable accesses.
-		Primitive types include Undefined, Null, Boolean, Number, or String.
+		Primitive types include Undefined, Boolean, Number, or String.
 	- Reference value
 		objects that are stored in the heap.
 		stored in the variable location is a pointer to a location in memory where the object is stored.
@@ -103,4 +106,6 @@ ECMAScript Syntax [Lexical Structure]
     [1,2,3,4,5]     // An array initializer
 
 
-
+10.内存自动回收
+    When an object is no longer reachable—when a program no longer has any way to refer to it,
+    the interpreter knows it can never be used again and automatically reclaims the memory it was occupying.
