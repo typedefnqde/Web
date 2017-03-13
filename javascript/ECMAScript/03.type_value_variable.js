@@ -16,7 +16,8 @@ Type:
     An object is a collection of properties where each property has a name and a value (either a primitive value, such as a number or string, or an object).
     - key-values: an unordered collection of named values.
     - arrays: an ordered collection of numbered values.
-    - functions: has executable code, true values that js can treat them like regular objects.
+    - functions: has executable code, true values that js can treat them like regular objects;
+                 constructor -- a kind of function that creates object.
     - null
 
 
