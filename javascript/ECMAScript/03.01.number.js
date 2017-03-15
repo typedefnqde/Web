@@ -106,50 +106,51 @@ Number Methods and Properties
     because JavaScript treats primitive values as objects when executing methods and properties.
 
 Properties
-    - Number.MAX_VALUE    //1.7976931348623157e+308
-    - Number.MIN_VALUE    //5e-324
-    - Number.NEGATIVE_INFINITY    //-Infinity
-    - Number.POSITIVE_INFINITY    //Infinity
-    - Number.NaN  //NaN, Represents a "Not-a-Number" value
+    - Number.MAX_VALUE    // 1.7976931348623157e+308
+    - Number.MIN_VALUE    // 5e-324
+    - Number.NEGATIVE_INFINITY    // -Infinity
+    - Number.POSITIVE_INFINITY    // Infinity
+    - Number.NaN  // NaN, Represents a "Not-a-Number" value
+    - num.constructor   // Returns the number's constructor function
+            // x=123; x.constructor => [Function: Number]
 
 Methods
     - Number.isFinite() -> boolean    // Checks whether a value is a finite number
-            //Number.isFinite(NaN) => false
-            //Number.isFinite(23) => true
-            //Number.isFinite('23') => false
+            // Number.isFinite(NaN) => false
+            // Number.isFinite(23) => true
+            // Number.isFinite('23') => false
     - Number.isInteger() -> boolean   // Checks whether a value is an integer
-            //Number.isInteger(23) => true
-            //Number.isInteger(23.) => true
-            //Number.isInteger('23') => false
-            //Number.isInteger(Math.pow(2, 534) - 1) => true
+            // Number.isInteger(23) => true
+            // Number.isInteger(23.) => true
+            // Number.isInteger('23') => false
+            // Number.isInteger(Math.pow(2, 534) - 1) => true
     - Number.isNaN()  -> boolean     // Checks whether a value is Number.NaN
-            //Number.isNaN(Infinity/Infinity) => true
-            //Number.isNaN(23) => false
+            // Number.isNaN(Infinity/Infinity) => true
+            // Number.isNaN(23) => false
     - Number.isSafeInteger() -> boolean  // Check whether a value is an safe integer.
                                 // A safe integer is an integer that can be exactly represented as
                                 // an IEEE-754 double precision number(all integers from (253 - 1) to -(253 - 1))
-            //Number.isSafeInteger(Math.pow(2, 53) - 1) => true
-            //Number.isSafeInteger(Math.pow(2, 534) - 1) => false
-    - num.toExponential(x) -> string  //指数记数, x:保留小数位数,默认全部
-            //x=23566; x.toExponential(3) => '2.357e+4'
-            //3623.45467.toExponential() => '3.62345467e+3'
-            //3.4.toExponential(20) => '3.39999999999999991118e+0'
+            // Number.isSafeInteger(Math.pow(2, 53) - 1) => true
+            // Number.isSafeInteger(Math.pow(2, 534) - 1) => false
+    - num.toExponential(x) -> string  // 指数记数, x:保留小数位数,默认全部
+            // x=23566; x.toExponential(3) => '2.357e+4'
+            // 3623.45467.toExponential() => '3.62345467e+3'
+            // 3.4.toExponential(20) => '3.39999999999999991118e+0'
     - num.toFixed(x) -> string  // x:保留小数个数,默认0; Converts a number into a string, keeping a specified number of decimals.
-            //34.748.toFixed() => '35'
-            //34.748.toFixed(20) => '34.74799999999999755573'
-    - num.toPrecision(x) -> string  //x:保留数字个数,默认全部; Formats a number to a specified length.
-            //34.748.toPrecision() => '34.748'
-            //34.748.toPrecision(1) => '3e+1'
-            //34.748.toPrecision(2) => '35'
-            //34.748.toPrecision(10) => '34.74800000'
-    - num.toString([radix]) -> string  //数字转换为字符, radix:可选,进制数,默认十进制
-            //0xab.toString() => '171'
-            //0xab.toString(16) => 'ab'
-            //23..toString() => '23'
-            //23..toString(2) => '10111'
-            //23..toString(8) => '27'
-    - num.valueOf() -> number //returns the primitive value of a number.
-            //23..valueOf() => 23
-            //a = new Number(23.4); a.valueOf() => 23.4
+            // 34.748.toFixed() => '35'
+            // 34.748.toFixed(20) => '34.74799999999999755573'
+    - num.toPrecision(x) -> string  // x:保留数字个数,默认全部; Formats a number to a specified length.
+            // 34.748.toPrecision() => '34.748'
+            // 34.748.toPrecision(1) => '3e+1'
+            // 34.748.toPrecision(2) => '35'
+            // 34.748.toPrecision(10) => '34.74800000'
+    - num.toString([radix]) -> string  // 数字转换为字符, radix:可选,进制数,默认十进制
+            // 0xab.toString() => '171'
+            // 0xab.toString(16) => 'ab'
+            // 23..toString() => '23'
+            // 23..toString(2) => '10111'
+            // 23..toString(8) => '27'
+    - num.valueOf() -> number // returns the primitive value of a number.
+            // 23..valueOf() => 23
+            // a = new Number(23.4); a.valueOf() => 23.4
 
-            

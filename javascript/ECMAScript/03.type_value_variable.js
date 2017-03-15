@@ -20,7 +20,7 @@ Type:
                  constructor -- a kind of function that creates object.
     - null
 
-
+---------------------------------------------------------------------------------
 
 第二种分类: 有方法的类型 和 不带方法的类型
     JavaScript is an object-oriented language, the types themselves define methods for working with values.
@@ -38,7 +38,7 @@ Type:
     - null
     - undefined
 
-
+---------------------------------------------------------------------------------
 
 第三种分类: 可变类型 和 不可变类型
 
